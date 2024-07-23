@@ -1,0 +1,76 @@
+
+
+
+
+.landingpageInnerContainer{
+
+ font-style: italic;
+
+}
+
+.landingpageContainer{
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  color: whiteSmoke;
+  background-color: #000;
+}
+
+
+.signIn {
+   text-decoration: none;
+   color: white;
+}
+.signUp {
+  text-decoration: none;
+  color: white;
+}
+
+
+.signUp {
+  text-decoration: none;
+  color: white;
+}
+
+
+.buttons button {
+
+
+ border-radius: 4px;
+
+}
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-10%);
+  }
+  50% {
+    transform: translate(5%);
+  }
+  75% {
+    transform: translate(-5%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.buttons button:hover {
+
+ font-size: larger;
+
+ animation: shake 0.8s ease;
+}
+
+
+.buttons{
+
+  
+  display: flex;
+  
+}

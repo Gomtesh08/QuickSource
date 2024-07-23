@@ -1,0 +1,169 @@
+/* .userPostsContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.post p {
+  margin-top: 10px;
+}
+
+.post button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post button:hover {
+  background-color: #0056b3;
+}
+
+.post button:focus {
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400&display=swap');
+
+
+* {
+   
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+    color: #333;
+}
+
+i {
+    font-weight: 100;
+    color: white;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headTitle{
+   
+  min-width: 100%;
+  padding-bottom: 20px;
+    padding-top : 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    width: 400px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    margin: auto; 
+    margin-bottom: 20px; 
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-img {
+    width: 100%;
+    position: relative;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.post-img i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.reactions i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.react-links i {
+    margin-right: 10px;
+}
+
+i.fa-heart:hover {
+    color: red;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.caption .post-cap {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #333 ;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+} */

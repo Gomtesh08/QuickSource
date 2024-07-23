@@ -1,0 +1,68 @@
+.postscontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.posts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post-details {
+  margin-top: 10px;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.post-description {
+  color: #666;
+}
+
+.post-link {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+/* Style for PostActions component buttons */
+.post-actions {
+  margin-top: 10px;
+}
+
+.post-actions button {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.post-actions button:hover {
+  text-decoration: underline;
+}

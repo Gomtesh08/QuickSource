@@ -1,0 +1,87 @@
+.postUploadContainer {
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.titleUploadPost {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.titleUploadPost h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.postUploadContent {
+  padding-top: 4vh;
+  margin-top: 2%;
+  background-color: #f9f9f9;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.navbarContainer {
+  padding-bottom: 4vh;
+}
+
+.formDiv {
+  margin-top: 20px;
+}
+
+.formElements {
+  width: 100%;
+}
+
+.image {
+  width: calc(100% - 20px);
+}
+
+.formElements input,
+textarea,
+select {
+  width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  font-size: 1em;
+}
+
+.formElements textarea {
+  height: 100px;
+}
+
+.formElements label {
+  margin-left: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: block;
+}
+
+button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+  background-color: #004494; /* Even darker blue when clicked */
+}
