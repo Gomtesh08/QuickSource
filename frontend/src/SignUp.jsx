@@ -1,7 +1,7 @@
-// SignUpForm.jsx
+
 
 import React, { useState } from 'react';
-import './SignUp.css'; // Import your CSS file for styling
+import './SignUp.css'; 
 import axios from 'axios';
 
 const SignUp = () => {
@@ -19,13 +19,13 @@ const SignUp = () => {
 
   const handleSubmit = async  (e) => {
     e.preventDefault();
-    // Add form submission logic here (e.g., send data to server or perform validation)
+   
     
   try {
     
     const response = await axios.post('/quicksource/signup',formData, {
       headers: {
-        'Content-Type': 'application/json', // Set content type for FormData
+        'Content-Type': 'application/json', 
       },
     })
     if(response.status == 201)

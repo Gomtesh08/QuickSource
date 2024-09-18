@@ -46,12 +46,12 @@
 .formElements input,
 textarea,
 select {
-  width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+  width: calc(100% - 20px);
   padding: 10px;
   margin: 10px 10px 20px 10px;
-  border: 1px solid #ccc; /* Light border */
+  border: 1px solid #ccc; 
   border-radius: 5px;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  box-sizing: border-box;
   font-size: 1em;
 }
 
@@ -67,7 +67,7 @@ select {
 }
 
 button {
-  background-color: #007bff; /* Blue color */
+  background-color: #007bff; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -79,9 +79,9 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
 
 button:active {
-  background-color: #004494; /* Even darker blue when clicked */
+  background-color: #004494; 
 }

@@ -22,11 +22,11 @@ const SearchBar = () => {
       );
 
       if (backendResponse.status === 200) {
-        // Store fetched data in local storage
+       
         localStorage.setItem('postsData', JSON.stringify(backendResponse.data));
        
         
-        // Redirect to /posts page
+        
         window.location.href = '/posts';
       } else {
         alert('Error: Backend request failed.');

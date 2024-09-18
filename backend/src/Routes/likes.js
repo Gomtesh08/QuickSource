@@ -1,32 +1,4 @@
-// import express from 'express';
-// import Upload from '../Models/Uploads.models.js'; // Adjust the path as necessary
 
-// const likeRouter = express.Router();
-
-// likeRouter.post('/', async (req, res) => {
-//   const { postId, likes, dislikes, difference } = req.body;
-
-//   try {
-//     const post = await Upload.findById(postId);
-
-//     if (!post) {
-//       return res.status(404).json({ error: 'Post not found' });
-//     }
-
-//     post.likes = likes;
-//     post.dislikes = dislikes;
-//     post.difference = difference;
-
-//     await post.save();
-
-//     res.status(200).json(post);
-//   } catch (error) {
-//     console.error('Error updating likes:', error);
-//     res.status(500).json({ error: 'Internal server error' });
-//   }
-// });
-
-// export default likeRouter;
 import express from 'express';
 import Upload from '../Models/Uploads.models.js';
 import authenticateToken from '../MiddleWare/auth.js';
